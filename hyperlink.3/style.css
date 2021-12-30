@@ -1,0 +1,46 @@
+#red{
+    background-color: aqua;
+    width: 200px;
+    height: 50px;
+}
+#myBtn{
+    background-color: ghostwhite;
+    height: 40px;
+    width: 150px;
+    text-overflow: clip;
+}
+#green{
+    background-color: greenyellow;
+    height: 40px;
+    width: 150px;
+}
+#purple{
+    background-color:  plum;
+    height: 40px;
+    width: 150px;
+}
+#peer{
+    background-color: burlywood;
+    height: 40px;
+    width: 200px;
+}
+#des{
+    background-color: rgb(255, 161, 45);
+    height: 40px;
+    width: 150px;
+}
+#tre{
+    background-color: rgb(15, 199, 255);
+    height: 40px;
+    width: 150px;
+}
+#sra{
+    background-color: rgb(255, 231, 15);
+    height: 40px;
+    width: 200px;
+}
+#how{
+    background-color: darkturquoise;
+    height: 40px;
+    width: 200px;
+}

@@ -1,0 +1,255 @@
+<head>
+    <title>Console_Covid-19_activity</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="mask.js"></script>
+    </head>
+    <body><center>
+        <h1 id="headinghk">Console Covid-19 activity</h1>
+        <style>
+            body {font-family: Arial, Helvetica, sans-serif;}
+            
+        
+            .modal {
+              display: none; 
+              position: fixed; 
+              z-index: 1; 
+              padding-top: 100px; 
+              left: 0;
+              top: 0;
+              width: 100%; 
+              height: 100%; 
+              overflow: auto; 
+              background-color: rgb(0,0,0); 
+              background-color: rgba(0,0,0,0.4); 
+            }
+            
+            
+            .modal-content {
+              background-color: #fefefe;
+              margin: auto;
+              padding: 20px;
+              border: 1px solid #888;
+              width: 80%;
+            }
+            
+           
+            .close {
+              color: #aaaaaa;
+              float: right;
+              font-size: 28px;
+              font-weight: bold;
+            }
+            
+            .close:hover,
+            .close:focus {
+              color: #000;
+              text-decoration: none;
+              cursor: pointer;
+            }
+            </style>
+            </head>
+            <body>
+            
+         
+            <button id="myBtn">Open Console</button>
+            
+            
+            <div id="myModal" class="modal">
+            
+             
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>How to open console.log ?
+                   Ans: Option + ⌘ + J (on macOS), or Shift + CTRL + J (on Windows/Linux).</p>
+              </div>
+            
+            </div>
+            
+            <script>
+            
+            var modal = document.getElementById("myModal");
+            
+            
+            var btn = document.getElementById("myBtn")
+            console.log("Hi,i hope you saw my tutorial")
+            
+            
+            var span = document.getElementsByClassName("close")[0];
+            
+           
+            btn.onclick = function() {
+              modal.style.display = "block";
+            }
+            
+    
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+            
+       
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+            </script>
+            <br>
+            <br>
+            
+       <button id="red" class="btn btn-primary" onclick="nextbolo()">What is the Covid-19?</button>
+       <br>
+       <br>
+       <button id="green" class="btn btn-primary" onclick="spread()"><b>How does Covid-19 spread?</b></button>
+       <br>
+       <br>
+       <button id="purple" class="btn btn-primary" onclick="start()"><b>How did the coronavirus start?</b></button>
+       <br>
+       <br>
+       <button id="peer" class="btn btn-primary" onclick="period()"><b>What is the incubation period for COVID-19?</b></button>
+       <br>
+       <br>
+       <button id="des" class="btn btn-primary" onclick="desp()"><b>How is COVID-19 diagnosed?</b></button>
+       <br>
+       <br>
+       <button id="tre" class="btn btn-primary" onclick="treat()"><b>How is COVID-19 treated?</b></button>
+       <br>
+       <br>
+       <button id="sra" class="btn btn-primary" onclick="sars()"><b>Is this coronavirus different from SARS?</b></button>
+       <h1>Videos</h1>
+       <h3>Covid-19 Explained:</h3>
+       <iframe width="660" height="360" src="https://www.youtube.com/embed/i0ZabxXmH4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <br>
+       <h3>Covid-19 Explained throught animation:</h3>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/5DGwOJXSxqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <br>
+       <hr>
+       <iframe width="660" height="360" src="https://www.youtube.com/embed/hH8_qPtz37k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<br>
+<h1>Prachin Mask</h1>
+<h4>(Mask console activity)</h4>
+<style>
+  body {font-family: Arial, Helvetica, sans-serif;}
+  
+
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+ 
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  </style>
+  </head>
+  <body>
+  
+
+  <button id="myBtn">Open Console</button>
+  
+  
+  <div id="myModal" class="modal">
+  
+   
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>How to open console.log ?
+         Ans: Option + ⌘ + J (on macOS), or Shift + CTRL + J (on Windows/Linux).</p>
+    </div>
+  
+  </div>
+  
+  <script>
+  
+  var modal = document.getElementById("myModal");
+  
+  
+  var btn = document.getElementById("myBtn")
+  console.log("Hi,i hope you saw my tutorial")
+  
+  
+  var span = document.getElementsByClassName("close")[0];
+  
+ 
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+  <br>
+  <br>
+  <button id="how" class="btn btn-primary" onclick="howdy()"><b>How to wear a mask?</b></button>
+  <br>
+  <br>
+  <h1>Videos:</h1>
+  <h3>How to find a mask that fits your face the best:</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/aNUPVdJHeAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <br>
+  <h3>Make hand sanitizer part of your mask wearing routine:</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/GEIYCvcOHLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <br>
+  <h3>Confused about when to wear a mask?</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/vohiTyczR8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <br>
+  <h3>How to properly fit your mask</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/YPd-XrDhzrQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <br>
+  <h3>WHO’s recommended fabric mask materials</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/iYE0A-5wd14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <br>
+  <h3>Medical and fabric masks: who wears what mask when?</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/esM_ePHn0aw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <br>
+  <h3>How to wear a medical mask?</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/adB8RW4I3o4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <br>
+  <h3>How to wear a fabric mask </h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ciUniZGD4tY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <br>
+  <h3>When and how children should wear a mask</h3>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/UmUxYGKA7as" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+       
+
+    </center>
+    </body>
